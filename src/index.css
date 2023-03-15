@@ -11,3 +11,43 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.todo-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+body {
+  background-color: white;
+}
+
+
+.strikedlist {
+  text-decoration: line-through;
+  color: red;
+}
+
+.span-item {
+  width: 300px;
+  margin: 10px 30px;
+}
+
+li {
+  margin-top: 20px;
+  list-style-type: none;
+
+}
+
+#main-input-field {
+  display: flex;
+}
+
+.list-field-bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
